@@ -29,7 +29,8 @@
       "css": [
         "styles.css"
       ],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "all_frames": true
     },
     {
       "matches": [
@@ -39,7 +40,8 @@
         "neuter.js"
       ],
       "run_at": "document_start",
-      "world": "MAIN"
+      "world": "MAIN",
+      "all_frames": true
     }
   ],
   "declarative_net_request": {
