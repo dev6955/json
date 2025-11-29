@@ -17,7 +17,8 @@
     "webRequest",
     "cookies",
     "scripting",
-    "alarms"
+    "alarms",
+    "unlimitedStorage"
   ],
   "content_scripts": [
     {
