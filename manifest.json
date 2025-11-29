@@ -16,7 +16,9 @@
     "declarativeNetRequest",
     "declarativeNetRequestFeedback",
     "webRequest",
-    "cookies"
+    "cookies",
+    "scripting",
+    "alarms"
   ],
   "content_scripts": [
     {
