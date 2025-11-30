@@ -18,7 +18,8 @@
     "cookies",
     "scripting",
     "alarms",
-    "unlimitedStorage"
+    "unlimitedStorage",
+    "system.display"
   ],
   "content_scripts": [
     {
@@ -68,5 +69,15 @@
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/icon128.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
 }
